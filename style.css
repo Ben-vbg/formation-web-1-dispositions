@@ -148,3 +148,18 @@ footer{
 .column33 h3{
   text-align: center;
 }
+
+
+/* Version mobile conditions */
+
+@media screen and (max-width: 900px) {
+  .container_column{
+    flex-wrap: wrap;
+  }
+  .column50{
+    max-width: 100%
+  }
+  .column33{
+    max-width: 100%
+  }
+}
